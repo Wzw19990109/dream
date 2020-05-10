@@ -1,0 +1,315 @@
+a{
+    text-decoration: none;
+    color:#666;
+}
+a:hover{
+    color:#ff5000;
+}
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+body{
+    background:#f4f4f4 center;
+}
+.header{
+    width:1192px;
+    height:36px;
+    line-height:36px;
+    margin:0 auto;
+    position:relative;
+    z-index:9999;
+}
+
+.header ul li{
+    float:left;
+    margin-right:20px;
+}
+ul{
+    font-size:12px;
+}
+.h1{
+    width:70px;
+}
+.xb{
+    display:block;
+    background:url(../images/one.png)no-repeat 60px 18px;
+}
+.header span{
+    color:#ff5000;
+}
+.header ul li:first-child a:hover{
+    color:#666666;
+}
+.header .xl{
+    width:200px;
+    height:200px;
+    border:1px solid #f4f4f4;
+    border-top:none;
+    background-color:white;
+    display:none;
+    overflow:auto;
+    margin-left:-1px;
+    position:absolute;
+    top:30px;
+}
+.header li:first-child:hover{
+    background: #fff;
+}
+.header li:hover .xl{
+    display:block;
+}
+.xl ol li{
+    width: 95%!important;
+    margin-left: 0!important;
+    padding-left:10px;
+}
+.xl ol li:hover{
+    background-color:#f4f4f4!important;
+}
+.header dl{
+    font-size:12px;
+}
+.header dd{
+    float:right;
+    width:80px;
+}
+.shu{
+    display:block;
+    background:url(../images/two.png)no-repeat 65px 12px;
+}
+.header dd:nth-child(3){
+    width:100px;
+    background:url(../images/one.png)no-repeat 77px 18px;
+}
+
+.header dd:nth-child(5){
+    width:56px;
+    background:url(../images/one.png)no-repeat 40px 18px;
+    margin-right:10px;
+}
+.header .xl2{
+    width:100px;
+    height:100px;
+    border:1px solid #f4f4f4;
+    border-top:none;
+    background-color:white;
+    display:none;
+    margin-left:-1px;
+    position:absolute;
+    top:30px;
+    overflow:hidden;
+}
+.header dd.d1:hover .xl2{
+    display:block;
+}
+.header dd.d1:hover{
+    background-color:white;
+}
+.header dd li{
+    margin:0!important;
+    padding-left:10px;
+    width:100%;
+}
+.header dd li:hover{
+    background-color:#f4f4f4!important;
+}
+.d1{
+
+}
+.header dd.d2:hover{
+    background-color:white;
+}
+.header .d1 .xl2 a:hover{
+    color:#666666;
+}
+.header .d2 .xl3 a:hover{
+    color:#666666;
+}
+.xl3{
+    width:80px;
+    height:80px;
+    border:1px solid #f4f4f4;
+    border-top:none;
+    margin-left:-1px;
+    background:white;
+    display:none;
+    position:absolute;
+    top:30px;
+    overflow:hidden;
+}
+.header dd.d2:hover .xl3{
+    display:block;
+}
+.xl4{
+    width:100px;
+    height:300px;
+    background:white;
+    border:1px solid #f4f4f4;
+    margin-left:-1px;
+    border-top:none;
+    display:none;
+    position:absolute;
+    top:30px;
+    overflow:hidden;
+}
+.header .d3 .xl4 a:hover{
+    color:#666666;
+}
+.header .d3:hover{
+    background:white;
+}
+.header dd.d3:hover .xl4{
+    display:block;
+}
+.header dd.d4:hover{
+    background:white;
+}
+.xl5{
+    width:80px;
+    height:80px;
+    background:white;
+    border:1px solid #f4f4f4;
+    border-top:none;
+    display:none;
+    position:absolute;
+    margin-left:-1px;
+    top:30px;
+    overflow:hidden;
+}
+.header dd.d4:hover .xl5{
+    display:block;
+}
+.header .d4 .xl5 a:hover{
+    color:#666666;
+}
+.header dd.d5:hover{
+    background:white;
+}
+.nmsl{
+    width:1192px;
+    height:300px;
+    background:white;
+    border:1px solid #f4f4f4;
+    border-top:none;
+    border-right:none;
+    position:absolute;
+    top:30px;
+    right:-1px;
+    display:none;
+}
+.header dd.d5:hover .nmsl{
+    display:block;
+}
+.kuai1 .cxk a{
+    display:block;
+    width:50px;
+    height:36px;
+    border-radius:5px;
+    line-height:36px;
+    text-align:center;
+}
+.kuai1 .cxk a:hover{
+    background:#ff5000;
+    color:white;
+}
+.kuai2 .cxk a{
+    display:block;
+    width:50px;
+    height:36px;
+    border-radius:5px;
+    line-height:36px;
+    text-align:center;
+}
+.kuai2 .cxk a:hover{
+    background:cornflowerblue;
+    color:white;
+}
+.kuai3 .cxk a{
+    display:block;
+    width:50px;
+    height:36px;
+    border-radius:5px;
+    line-height:36px;
+    text-align:center;
+}
+.kuai3 .cxk a:hover{
+    background:plum;
+    color:white;
+}
+.kuai4 .cxk a{
+    display:block;
+    width:50px;
+    height:36px;
+    border-radius:5px;
+    line-height:36px;
+    text-align:center;
+}
+.kuai4 .cxk a:hover{
+    background:pink;
+    color:white;
+}
+.span1{
+    font-size:16px;
+    margin-left:10px;
+}
+.span2{
+    font-size:16px;
+    color:blue!important;
+    margin-left:10px;
+}
+.span3{
+    font-size:16px;
+    color:purple!important;
+    margin-left:10px;
+}
+.span4{
+    font-size:16px;
+    color:deeppink!important;
+    margin-left:10px;
+}
+.kuai1{
+    float:left;
+    width:296px;
+    height:278px;
+    padding:10px 0;
+    border-right:1px solid #f4f4f4;
+}
+.kuai1 .cxk dt{
+    margin-left:15px;
+    float:left;
+}
+.kuai2 .cxk dt{
+    margin-left:35px;
+    float:left;
+}
+.kuai3 .cxk dt{
+    margin-left:35px;
+    float:left;
+}
+.kuai4 .cxk dt{
+    margin-left:30px;
+    float:left;
+}
+.kuai2{
+    width:296px;
+    height:278px;
+    padding:10px 0;
+    border-right:1px solid #f4f4f4;
+    float:left;
+}
+.kuai3{
+    width:296px;
+    height:278px;
+    padding:10px 0;
+    border-right:1px solid #f4f4f4;
+    float:left;
+}
+.kuai4{
+    width:300px;
+    height:278px;
+    padding:10px 0;
+    border-right:1px solid #f4f4f4;
+    float:left;
+}

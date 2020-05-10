@@ -1,0 +1,276 @@
+.shop{
+    width:1192px;
+    height:1725px;
+    margin:0 auto;
+    margin-top:10px;
+}
+.shop .shopping{
+    width:1192px;
+    height:658px;
+}
+/*左热卖-----------------------------------------------------------------------------------------------------*/
+.shop .yhh{
+    width:550px;
+    height:618px;
+    background:white;
+    float:left;
+    padding:20px;
+}
+.shop .agj{
+    width:550px;
+    height:618px;
+    background:white;
+    margin-left:10px;
+    padding:20px;
+    float:left;
+}
+.yhh .tou{
+    width:550px;
+    height:44px;
+    background:url(../images/yhh.png)no-repeat;
+    position:relative;
+}
+.tou .iii{
+    color:#666;
+    margin-left:85px;
+    margin-top:6px;
+}
+.iii .ewm{
+    width:90px;
+    height:100px;
+    background:url(../images/sao1.png)no-repeat;
+    display:none;
+    position: absolute;
+    left:50px;
+    top:25px;
+}
+.iii:hover .ewm{
+    display:block;
+}
+.yhh li{
+    width:180px;
+    height:268px;
+    float:left;
+}
+.yhh .hh1{
+    margin-right:4px;
+    background:url(../images/yhh1.png)no-repeat;
+}
+.yhh .hh1:hover{
+    opacity:0.8;
+}
+.yhh .hh2:hover{
+    opacity:0.8;
+}
+.yhh .hh3:hover{
+    opacity:0.8;
+}
+.yhh .hh4:hover{
+    opacity:0.8;
+}
+.yhh .hh5:hover{
+    opacity:0.8;
+}
+.yhh .hh6:hover{
+    opacity:0.8;
+}
+.yhh .hh2{
+    margin-right:4px;
+    background:url(../images/yhh2.png)no-repeat;
+}
+.yhh .hh3{
+    background:url(../images/yhh3.png)no-repeat;
+}
+.yhh .hh4{
+    margin-top:35px;
+    margin-right:4px;
+    background:url(../images/yhh4.png)no-repeat;
+}
+.yhh .hh5{
+    margin-top:35px;
+    margin-right:4px;
+    background:url(../images/yhh5.png)no-repeat;
+}
+.yhh .hh6{
+    margin-top:35px;
+    background:url(../images/yhh6.png)no-repeat;
+}
+.yhh .yhhh{
+    font-size:14px;
+    display:block;
+    margin-top:190px;
+
+}
+/*又热卖--------------------------------------------------------*/
+.agj .tou{
+    width:550px;
+    height:44px;
+    background:url(../images/agj.png)no-repeat;
+    position:relative;
+}
+
+.agj li{
+    width:180px;
+    height:278px;
+    float:left;
+}
+.agj .hh1{
+    margin-right:4px;
+    background:url(../images/agj1.png)no-repeat;
+}
+.agj .hh1:hover{
+    opacity:0.8;
+}
+.agj .hh2:hover{
+    opacity:0.8;
+}
+.agj .hh3:hover{
+    opacity:0.8;
+}
+.agj .hh4:hover{
+    opacity:0.8;
+}
+.agj .hh5:hover{
+    opacity:0.8;
+}
+.agj .hh6:hover{
+    opacity:0.8;
+}
+.agj .hh2{
+    margin-right:4px;
+    background:url(../images/agj2.png)no-repeat;
+}
+.agj .hh3{
+    background:url(../images/agj3.png)no-repeat;
+}
+.agj .hh4{
+    margin-top:25px;
+    margin-right:4px;
+    background:url(../images/agj4.png)no-repeat;
+}
+.agj .hh5{
+    margin-top:25px;
+    margin-right:4px;
+    background:url(../images/agj5.png)no-repeat;
+}
+.agj .hh6{
+    margin-top:25px;
+    background:url(../images/agj6.png)no-repeat;
+}
+.agj .yhhh{
+    font-size:12px;
+    display:block;
+    margin-top:190px;
+
+}
+.shop .danping{
+    width:1192px;
+    height:90px;
+    background:white;
+    margin-top:10px;
+}
+.shop .shang{
+    width:1190px;
+    height:54px;
+    background:url(../images/danping.png)no-repeat;
+}
+.danping li{
+    float:left;
+    margin-left:15px;
+}
+.shop .remai{
+    width:1192px;
+    height:700px;
+    background:white;
+    margin-top:1px;
+}
+.remai li{
+    width:238px;
+    height:350px;
+    border-bottom:1px solid #eeeeee;
+    float:left;
+    border-right:1px solid #eeeeee;
+    box-sizing: border-box;
+}
+.remai .remai1{
+    background:url(../images/remai1.png)no-repeat;
+}
+.remai .remai1:hover{
+    border:1px solid #ff5000;
+    box-sizing: border-box;
+}
+.remai .remai2{
+    background:url(../images/remai2.png)no-repeat;
+}
+.remai .remai2:hover{
+    border:1px solid #ff5000;
+    box-sizing: border-box;
+}
+.remai .remai3{
+    background:url(../images/remai3.png)no-repeat;
+}
+.remai .remai3:hover{
+    border:1px solid #ff5000;
+    box-sizing: border-box;
+}
+.remai .remai4{
+    background:url(../images/remai4.png)no-repeat;
+}
+.remai .remai4:hover{
+    border:1px solid #ff5000;
+    box-sizing: border-box;
+}
+.remai .remai5{
+    width:240px;
+    height:350px;
+    border-right:none;
+    background:url(../images/remai5.png)no-repeat;
+}
+.remai .remai5:hover{
+    border:1px solid #ff5000;
+    box-sizing: border-box;
+}
+.remai .remai6{
+    background:url(../images/remai6.png)no-repeat;
+}
+.remai .remai6:hover{
+    border:1px solid #ff5000;
+    box-sizing: border-box;
+}
+.remai .remai7{
+    background:url(../images/remai7.png)no-repeat;
+}
+.remai .remai7:hover{
+    border:1px solid #ff5000;
+    box-sizing: border-box;
+}
+.remai .remai8{
+    background:url(../images/remai8.png)no-repeat;
+}
+.remai .remai8:hover{
+    border:1px solid #ff5000;
+    box-sizing: border-box;
+}
+.remai .remai9{
+    background:url(../images/remai9.png)no-repeat;
+}
+.remai .remai9:hover{
+    border:1px solid #ff5000;
+    box-sizing: border-box;
+}
+.remai .remai10{
+    width:240px;
+    height:350px;
+    border-right:none;
+    background:url(../images/remai10.png)no-repeat;
+}
+.remai .remai10:hover{
+    border:1px solid #ff5000;
+    box-sizing: border-box;
+}
+/*尾部------------------------------------------------------------------------------------*/
+.shop .wei1{
+    width:1190px;
+    height:260px;
+    background:url(../images/wei.png)no-repeat;
+}
